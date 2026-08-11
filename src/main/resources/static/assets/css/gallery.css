@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 :root {
     --ink: #1b1815;
@@ -713,7 +714,7 @@ img {
 .gal-overlay {
     position: fixed;
     inset: 0;
-    z-index: 60;
+    z-index: 110;
     background: rgba(28, 26, 23, 0.55);
     backdrop-filter: blur(3px);
     display: flex;
@@ -1512,4 +1513,21 @@ img {
         left: 0;
         right: 0;
     }
+}
+
+
+/* =========================================================
+   ADMIN NAME HOVER MENU
+   Existing gallery design is preserved.
+========================================================= */
+.gal-user {
+    padding-bottom: 0.35rem;
+}
+
+.gal-user:hover .gal-user__menu {
+    display: block;
+}
+
+.gal-user__menu[hidden] {
+    display: none !important;
 }

@@ -1340,41 +1340,25 @@ body.lbh-no-scroll {
 ========================================================= */
 
 @media (max-width: 480px) {
-
     .lbh-brand-img {
-
         width: 120px;
-
     }
-
 
     .lbh-nav.lbh-scrolled
     .lbh-brand-img {
-
         width: 115px;
-
     }
-
 
     .lbh-mobile-nav {
-
         width: 70vw;
-
         min-width: 250px;
-
         padding-left: 25px;
-
         padding-right: 25px;
-
     }
-
 
     .lbh-mobile-link {
-
         font-size: 18px;
-
     }
-
 }
 
 

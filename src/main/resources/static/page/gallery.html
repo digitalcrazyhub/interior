@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gallery | Little Big Home Interiors</title>
     <meta name="description" content="A curated portfolio of luxury residential and commercial interiors by Little Big Home Interiors." />
-    <link rel="stylesheet" href="/src/main/resources/static/assets/css/gallery.css" />
-    <link rel="stylesheet" href="/src/main/resources/static/assets/css/navbar-footer.css" />
-    <link rel="icon" href="/src/main/resources/static/assets/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/gallery.css" />
+    <link rel="stylesheet" href="/assets/css/navbar-footer.css" />
+    <link rel="icon" href="/assets/image/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,15 +22,15 @@
         <!-- ===============================
              LOGO
         ================================ -->
-        <a href="#home" class="lbh-brand" aria-label="Little Big Home Interiors Home">
-            <img src="/src/main/resources/static/assets/image/logo.png" alt="Little Big Home Interiors" class="lbh-brand-img">
+        <a href="/index.html#home" class="lbh-brand" aria-label="Little Big Home Interiors Home">
+            <img src="/assets/image/logo.png" alt="Little Big Home Interiors" class="lbh-brand-img">
         </a>
         <!-- ===============================
              DESKTOP NAVIGATION
         ================================ -->
         <nav class="lbh-menu" id="lbhMenu" aria-label="Primary Navigation">
             <a href="/index.html" class="lbh-menu-link lbh-active">Home</a>
-            <a href="/src/main/resources/static/index.html#about" class="lbh-menu-link">About</a>
+            <a href="/index.html#about" class="lbh-menu-link">About</a>
             <a href="/index.html#projects" class="lbh-menu-link">Projects</a>
             <a href="/index.html#services" class="lbh-menu-link">Services</a>
             <a href="/index.html#process" class="lbh-menu-link">Process</a>
@@ -49,7 +49,7 @@
                 <span class="lbh-phone-text">+91 73581 61947</span>
             </a>
             <!-- CONTACT CTA -->
-            <a href="#contact" class="lbh-contact-cta">Contact Us</a>
+            <a href="/index.html#contact" class="lbh-contact-cta">Contact Us</a>
         </div>
         <!-- ===============================
              MOBILE TOGGLE
@@ -67,13 +67,13 @@
 ====================================================== -->
 <div class="lbh-mobile" id="lbhMobile" aria-hidden="true">
     <nav class="lbh-mobile-nav" aria-label="Mobile Navigation">
-        <a href="#home" class="lbh-mobile-link lbh-active">Home</a>
-        <a href="#about" class="lbh-mobile-link">About</a>
-        <a href="#projects" class="lbh-mobile-link">Projects</a>
-        <a href="#services" class="lbh-mobile-link">Services</a>
-        <a href="#process" class="lbh-mobile-link">Process</a>
+        <a href="/index.html#home" class="lbh-mobile-link lbh-active">Home</a>
+        <a href="/index.html#about" class="lbh-mobile-link">About</a>
+        <a href="/index.html#projects" class="lbh-mobile-link">Projects</a>
+        <a href="/index.html#services" class="lbh-mobile-link">Services</a>
+        <a href="/index.html#process" class="lbh-mobile-link">Process</a>
         <a href="/page/gallery.html" class="lbh-mobile-link">Gallery</a>
-        <a href="#contact" class="lbh-mobile-link">Contact</a>
+        <a href="/index.html#contact" class="lbh-mobile-link">Contact</a>
         <!-- Mobile Phone -->
         <a href="tel:+917358161947" class="lbh-mobile-phone">
                 <span class="lbh-mobile-phone-icon">
@@ -93,15 +93,15 @@
                               stroke-linejoin="round" />
                     </svg>
                 </span>
-            +91 99999 99999</a>
+            +91 73581 61947</a>
         <!-- Mobile CTA -->
-        <a href="#contact" class="lbh-mobile-cta">Contact Us</a>
+        <a href="/index.html#contact" class="lbh-mobile-cta">Contact Us</a>
     </nav>
 </div>
 <!-- 1. BANNER -->
 <section class="lbhg-banner" aria-label="Gallery banner">
     <div class="lbhg-banner-media" aria-hidden="true">
-        <img class="lbhg-banner-img" src="/assets/image/gallery/banner-luxury-living-room.jpg" alt="" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1920&amp;q=80'" />
+        <img class="lbhg-banner-img" src="/assets/image/image%20(52).jpeg" alt="" />
     </div>
     <div class="lbhg-banner-overlay"></div>
     <div class="lbhg-banner-content">
@@ -193,8 +193,8 @@
                         <span class="gal-label" id="gal-file-label">Upload File *</span>
                         <div class="gal-drop" id="gal-drop" role="button" tabindex="0" aria-labelledby="gal-file-label" aria-describedby="gal-file-help">
                             <span class="gal-drop__mark" aria-hidden="true">+</span>
-                            <span class="gal-drop__main">Drag &amp; Drop, or click to browse</span>
-                            <span class="gal-drop__hint" id="gal-file-help">Exactly 360×480px · JPG/PNG · 1–2MB</span>
+                            <span class="gal-drop__main">Drag & Drop, or click to browse</span>
+                            <span class="gal-drop__hint" id="gal-file-help">JPG/PNG · 1–2MB</span>
                         </div>
                         <input type="file" id="gal-file-input" accept=".jpg,.jpeg,.png,image/jpeg,image/png" class="gal-sr" aria-labelledby="gal-file-label" />
                         <p class="gal-msg gal-msg--error" id="gal-file-err" role="alert" hidden><span aria-hidden="true"></span> <span></span></p>
@@ -247,7 +247,7 @@
                         </div>
                         <img id="gal-preview-img" alt="Selected image preview" hidden />
                     </div>
-                    <p class="gal-preview__note">Preview shown at the required 360 × 480 ratio.</p>
+                    <p class="gal-preview__note">Preview shown at the ratio.</p>
                 </aside>
             </div>
         </div>
@@ -282,7 +282,7 @@
              BRAND
         ================================ -->
         <div class="lbh-footer-brand">
-            <a href="index.html#home" class="lbh-footer-logo"><img src="/assets/image/logo.png" alt="Little Big Home Interiors"></a>
+            <a href="/index.html#home" class="lbh-footer-logo"><img src="/assets/image/logo.png" alt="Little Big Home Interiors"></a>
             <p class="lbh-footer-desc">
                 We transform your vision into beautifully
                 crafted spaces — architecture and interiors,
@@ -303,11 +303,11 @@
         <div class="lbh-footer-col">
             <h4>Studio</h4>
             <ul>
-                <li><a href="index.html#about">About Us</a></li>
-                <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#process">Our Process</a></li>
+                <li><a href="/index.html#about">About Us</a></li>
+                <li><a href="/index.html#services">Services</a></li>
+                <li><a href="/index.html#process">Our Process</a></li>
                 <li><a href="/page/gallery.html">Gallery</a></li>
-                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="/index.html#contact">Contact Us</a></li>
             </ul>
         </div>
         <!-- ===============================
@@ -316,11 +316,7 @@
         <div class="lbh-footer-col">
             <h4>Explore</h4>
             <ul>
-                <li><a href="index.html#projects">Our Projects</a></li>
-                <li><a href="index.html#services">Interior Design</a></li>
-                <li><a href="index.html#about">About Studio</a></li>
-                <li><a href="index.html#contact">Start A Project</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="/page/privacy-policy.html">Privacy Policy</a></li>
             </ul>
         </div>
         <!-- ===============================
@@ -349,7 +345,7 @@
 <script>
     lucide.createIcons();
 </script>
-<script src="/src/main/resources/static/assets/js/gallery.js"></script>
-<script src="/src/main/resources/static/assets/js/navbar-footer.js"></script>
+<script src="/assets/js/gallery.js"></script>
+<script src="/assets/js/navbar-footer.js"></script>
 </body>
 </html>

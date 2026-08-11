@@ -38,19 +38,19 @@ body {
 img {
     max-width: 100%;
     display: block;
-    height: auto
+    height: auto;
 }
 
 a {
     color: inherit;
-    text-decoration: none
+    text-decoration: none;
 }
 
 ul,
 ol {
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
 }
 
 h1,
@@ -60,35 +60,35 @@ h4 {
     margin: 0;
     font-weight: 600;
     letter-spacing: -.02em;
-    line-height: 1.08
+    line-height: 1.08;
 }
 
 h1 {
     font-size: clamp(2.6rem, 6.4vw, 5.2rem);
-    font-weight: 500
+    font-weight: 500;
 }
 
 h2 {
     font-size: clamp(1.85rem, 3.6vw, 3.1rem);
-    font-weight: 500
+    font-weight: 500;
 }
 
 h3 {
-    font-size: 1.12rem
+    font-size: 1.12rem;
 }
 
 p {
-    margin: 0 0 1rem
+    margin: 0 0 1rem;
 }
 
 em {
     font-style: normal;
-    color: var(--gold)
+    color: var(--gold);
 }
 
 :focus-visible {
     outline: 2px solid var(--gold);
-    outline-offset: 3px
+    outline-offset: 3px;
 }
 
 .sr-only {
@@ -96,22 +96,22 @@ em {
     width: 1px;
     height: 1px;
     overflow: hidden;
-    clip: rect(0 0 0 0)
+    clip: rect(0 0 0 0);
 }
 
 .container {
     width: 100%;
     max-width: var(--maxw);
     margin: 0 auto;
-    padding: 0 24px
+    padding: 0 24px;
 }
 
 .section {
-    padding: clamp(70px, 9vw, 130px) 0
+    padding: clamp(70px, 9vw, 130px) 0;
 }
 
 .section-tight {
-    padding: clamp(48px, 6vw, 80px) 0
+    padding: clamp(48px, 6vw, 80px) 0;
 }
 
 .label {
@@ -1408,6 +1408,20 @@ em {
 .read:hover {
     border-color: var(--gold);
     color: var(--gold)
+}
+
+/* ======= Email popup ==========*/
+.form-msg {
+    margin-top: 15px;
+    min-height: 20px;
+}
+
+.form-msg.success {
+    color: #d4a23c;
+}
+
+.form-msg.error {
+    color: #e57373;
 }
 
 /* ===== RESPONSIVE ===== */
